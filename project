@@ -69,7 +69,7 @@ cout<<"\n";
     for(int i=0;i<totalitems;i++)  
     {  
         outfile<<"Name: "<<Iname[i]<<" Qty: "<<Qty[i]<<" Price: "<<tprice[i]<<endl;  
-        cout<<Iname[i]<<"\t\t"<<Qty[i]<<"\t   "<<price[i]<<"\t   "<<tprice[i]<<'\n';  
+        cout<<Iname[i]<<"\t\t   "<<Qty[i]<<"\t   "<<price[i]<<"\t   "<<tprice[i]<<'\n';  
     }  
   
     outfile<<"------------------------------------------------------------------------"<<endl;  
